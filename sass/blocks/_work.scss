@@ -1,0 +1,29 @@
+.work {
+    &__title {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 36px;
+        font-size: 24px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 350px);
+        column-gap: 15px;
+        row-gap: 0px;
+    }
+    &__item {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;           
+    }
+    &__place {
+        font-weight: 700;
+    }
+    &__position {
+        margin-top: 10px;
+    } 
+    &__responsibility {
+        margin-top: 10px;
+    }    
+}
